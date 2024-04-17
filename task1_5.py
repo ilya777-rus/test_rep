@@ -17,18 +17,12 @@ s="sdfsfHdsfHHHdfdsHdfH H"
 print(replaceh(s))
 
 #3) Выведите количество слов в строке
-st = input('Количество слов в строке: ')
-print(len(st.split()))
+str='ddsd ds sd  '
+print('Количество слов в строке: ', len(str.split()))
 
 #4) Выведите количество слов в строке, не используя метод split()
-
-str='ddsd ds sd  '
 str=str.strip()
 print('Количество слов в строке:',str.count(' ')+1)
-
-# print(func('s'))
-# print(func('s s  s s dsd sd'))
-# print(func('s sds ssss ds'))
 
 # 5) У Вас есть строка, состоящая из двух слов, разделенных пробелом. Переставьте эти слова местами.
 # Результат запишите в строку и выведите получившуюся строку.
